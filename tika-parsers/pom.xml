@@ -33,6 +33,7 @@
   <packaging>bundle</packaging>
   <name>Apache Tika parsers</name>
   <url>http://tika.apache.org/</url>
+  <version>1.28.5+sp1p1</version>
 
   <properties>
     <!-- NOTE: sync codec version with POI -->
@@ -76,13 +77,13 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>tika-core</artifactId>
-      <version>${project.version}</version>
+      <version>${project.parent.version}</version>
     </dependency>
 
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>tika-core</artifactId>
-      <version>${project.version}</version>
+      <version>${project.parent.version}</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
